@@ -16,9 +16,10 @@ that day turns out to be.
 ## Data
 
 **Outages — EAGLE-I (Oak Ridge National Laboratory).** County-level customers-out,
-recorded every 15 minutes, 2014 onward. Published as one CSV per year. Search for
-"EAGLE-I power outage data ORNL" (DOI `10.13139/ORNLNCCS/1975202`, hosted on DOE's
-Constellation repository) and download the yearly files into `data/raw/eaglei/`.
+recorded every 15 minutes, 2014 onward. Published on OSTI as one record per year —
+search [osti.gov](https://www.osti.gov/search) for "EAGLE-I Power Outage Data" and
+download the yearly files into `data/raw/eaglei/`. (The 2025 record, as an example of
+the pattern: DOI `10.13139/ORNLNCCS/3012826`, `https://www.osti.gov/biblio/3012826`.)
 
 `src/01_filter_outages.py` globs `eaglei_outages_*.csv` and expects these columns:
 
@@ -208,8 +209,12 @@ this data:
   the data as a large outage on a hot windy day — exactly the signal the model learns.
   Some of the model's skill on high-wind days is likely learning *utility decisions*,
   not equipment failures. Separating them needs PSPS event records, which aren't here.
-- **County-level is coarse.** A county gets one weather point at its centroid. Sonoma
-  County spans coast to inland ridgeline; one gust reading doesn't describe both.
+- **County-level is coarse, and the centroid isn't where the customers are.** Each
+  county gets one weather point at its geographic centroid. San Diego County's centroid
+  sits in the eastern mountains and records ~660 mm of rain a year; the coastal strip
+  where nearly all the customers live gets less than half that. Sonoma spans coast to
+  inland ridgeline on one gust reading. A population-weighted centroid would be the
+  obvious next fix.
 - **No asset data.** Nothing about circuit age, conductor type, vegetation, or
   undergrounding. The model knows weather and nothing about the grid it's hitting.
 - **Missing days are treated as zero.** EAGLE-I records intervals with customers out,

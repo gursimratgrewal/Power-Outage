@@ -17,14 +17,26 @@ committed. Keep it small: GitHub warns above 50 MB per file and rejects above
 **Source: EAGLE-I, Oak Ridge National Laboratory.** County-level customers-out
 every 15 minutes, 2014 onward, one CSV per year.
 
-Find it by searching for **"EAGLE-I power outage data ORNL"**. It's published
-through DOE's Constellation / OSTI data repository under DOI
-`10.13139/ORNLNCCS/1975202`, and mirrored on figshare. Download the yearly files
-(`eaglei_outages_2014.csv` … `eaglei_outages_2023.csv`).
+It's published on **OSTI**, one record per year, each with its own DOI. Search
+[osti.gov](https://www.osti.gov/search) for **"EAGLE-I Power Outage Data"** and
+take every year from 2014 through 2024.
 
-> The exact landing URL couldn't be verified from inside the sandbox where this
-> was written. The dataset name, publisher and DOI above are what to search for;
-> confirm the file layout against the column table below when you get there.
+The 2025 record, as a worked example of what you're looking for:
+
+| field | value |
+| --- | --- |
+| title | EAGLE-I Power Outage Data 2025 |
+| DOI | `10.13139/ORNLNCCS/3012826` |
+| landing page | `https://www.osti.gov/biblio/3012826` |
+| direct download | `https://www.osti.gov/servlets/purl/3012826` |
+| publisher | Oak Ridge National Laboratory, for DOE CESER |
+
+**2025 on its own is not enough** — this project trains on 2014–2021 and tests on
+2022–2024, so the years matter more than any single file.
+
+> OSTI is unreachable from the sandbox this was written in, so the per-year DOIs
+> for 2014–2024 couldn't be looked up. The 2025 row above is confirmed from the
+> dataset's own metadata record; the others follow the same pattern.
 
 The full dataset is several GB — **too big to commit raw.** Pick one:
 
@@ -81,7 +93,11 @@ in one request** (about 60,000 rows, a few MB):
 https://archive-api.open-meteo.com/v1/archive?latitude=37.65,39.67,37.92,38.78,36.76,40.7,34.31,38.51,39.3,39.06,38.45,33.03,37.23,40.76,38.53&longitude=-121.92,-121.6,-121.95,-120.52,-119.65,-123.87,-118.23,-122.33,-120.77,-120.72,-121.34,-116.77,-121.69,-122.04,-122.89&start_date=2014-01-01&end_date=2024-12-31&daily=wind_gusts_10m_max,wind_speed_10m_max,temperature_2m_mean,temperature_2m_max,precipitation_sum&timezone=America/Los_Angeles&format=csv
 ```
 
-Save it as `handoff/openmeteo/open-meteo.csv`, then:
+**This is already done** — `open-meteo-ca-counties-2014-2024.csv.gz` in this folder
+holds all 15 counties for 2014-01-01 to 2024-12-31, 60,270 county-days with no
+missing values. The URL above is kept for regenerating it.
+
+Save the download to `handoff/openmeteo/` (`.gz` is fine), then:
 
 ```bash
 python tools/import_weather.py
