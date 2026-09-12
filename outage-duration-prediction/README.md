@@ -128,6 +128,8 @@ Test years 2012–2014, 484 events, 141 of them long.
 
 <!-- RESULTS:END -->
 
+![Precision-recall curve](outputs/figures/precision_recall.png)
+
 **Reading this honestly:**
 
 - The baseline's 70.9% accuracy is the whole argument for not using accuracy. It never
@@ -155,6 +157,8 @@ Permutation importance (drop in PR-AUC when a feature is shuffled):
 | `nerc_region` | 0.015 |
 | `month` | 0.008 |
 
+![Permutation importance](outputs/figures/feature_importance.png)
+
 Cause dominates, and the per-cause breakdown shows why:
 
 | cause | events | median hours | share running long |
@@ -176,7 +180,7 @@ the cause, consistent with finite crews and mutual-aid capacity.
 
 ### Calibration
 
-`outputs/calibration.csv`, `outputs/figures/calibration.png`
+![Calibration by decile](outputs/figures/calibration.png)
 
 Predictions are bucketed into deciles and mean predicted probability compared against the
 observed share running long. The top decile predicts 0.837 and delivers 0.735; the bottom
