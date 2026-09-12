@@ -1,0 +1,10 @@
+feature,importance
+cause,0.3434
+events_region_7d,0.0415
+events_region_30d,0.0263
+nerc_region,0.0153
+month,0.0077
+n_areas,0.0056
+day_of_week,0.0047
+events_national_30d,-0.0002
+hour_began,-0.0004

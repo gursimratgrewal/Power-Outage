@@ -1,0 +1,485 @@
+began,cause,nerc_region,geographic_areas,duration_hours,long_event,score_logistic,score_gradient_boosting
+2012-10-30 02:00:00,storm,RFC,Greater Detroit Michigan,68.0,1,0.9413,0.9413
+2014-01-08 05:00:00,storm,RFC,Unknown,1.5,0,0.931,0.9501
+2012-10-29 18:12:00,storm,RFC,Virginia,25.383333333333333,1,0.9179,0.8782
+2012-10-29 18:11:00,storm,RFC,Central Pennsylvania,148.65,1,0.9112,0.8782
+2013-01-20 03:30:00,storm,RFC,Southeastern Michigan,74.75,1,0.9049,0.9261
+2012-10-29 17:30:00,storm,RFC,Greater Philadelphia Pennsylvania,174.5,1,0.9044,0.8782
+2014-01-07 06:18:00,storm,RFC,Pennsylvania,0.0166666666666666,0,0.9029,0.9505
+2012-07-01 13:00:00,storm,RFC,Illinois,50.0,1,0.8984,0.7417
+2012-10-29 17:13:00,storm,RFC,Greater Baltimore Maryland,41.78333333333333,1,0.8967,0.8782
+2013-12-22 03:28:00,storm,RFC,"Southern Lower Penninsula, Michigan",164.28333333333333,1,0.8961,0.8051
+2013-12-22 06:30:00,storm,RFC,Michigan,70.7,1,0.8932,0.8009
+2012-07-05 00:00:00,storm,RFC,Lower Peninsula Michigan,44.5,1,0.8855,0.9114
+2012-10-29 16:00:00,storm,RFC,Maryland; West Virginia,241.13333333333333,1,0.881,0.8766
+2014-01-07 10:59:00,fuel supply,RFC,Illinois,46.016666666666666,1,0.8729,0.7845
+2013-01-17 18:07:00,storm,RFC,"Southwest Virginia, Southern West Virginia",73.38333333333334,1,0.8701,0.8971
+2012-10-29 16:00:00,storm,RFC,Eastern Pennsylvania,223.8,1,0.8696,0.8782
+2012-10-29 16:00:00,storm,RFC,Greater Cleveland Ohio,175.98333333333332,1,0.8696,0.8782
+2012-10-29 09:00:00,storm,RFC,"Delaware, Maryland",105.0,1,0.8635,0.8728
+2012-10-29 12:00:00,storm,RFC,New Jersey,155.0,1,0.8599,0.871
+2014-01-06 19:52:00,storm,RFC,Delaware,0.8833333333333333,0,0.8586,0.8024
+2012-10-29 00:00:00,storm,RFC,West Virginia,287.9833333333333,1,0.8528,0.9433
+2012-09-08 15:40:00,storm,RFC,"Prince George's County, Montgomery County Maryland; D.C.",3.083333333333333,0,0.8516,0.8229
+2012-06-30 22:30:00,storm,RFC,"Calvert, Charles, St. Mary's, Prince Georges Counties Maryland",33.68333333333333,1,0.8437,0.8357
+2012-10-29 08:00:00,storm,RFC,New Jersey,159.0,1,0.8401,0.8828
+2012-12-25 00:45:00,storm,SPP,Arkansas; Louisiana; Mississippi; Texas,87.5,1,0.84,0.9082
+2013-12-22 06:16:00,storm,NPCC,Frontier/Genesee/Northern New York,65.71666666666667,1,0.8229,0.7274
+2012-12-02 05:20:00,storm,WECC,Northern California,51.66666666666666,1,0.817,0.8555
+2012-10-29 19:15:00,storm,NPCC,Southeast and Seacoast Maine,19.78333333333333,0,0.8153,0.6507
+2014-01-06 19:50:00,storm,RFC,Pennsylvania,0.9833333333333332,0,0.8114,0.7994
+2014-01-06 19:50:00,storm,RFC,Pennsylvania,0.9,0,0.8114,0.7994
+2014-01-06 19:50:00,storm,RFC,District of Columbia,0.9,0,0.8114,0.7994
+2014-01-06 19:50:00,storm,RFC,Unknown,0.9,0,0.8114,0.7994
+2012-06-30 01:00:00,storm,RFC,Delaware; Maryland,72.0,1,0.8031,0.8324
+2012-06-30 01:15:00,storm,RFC,Atlantic City Electric Service Territory New Jersey,184.3,1,0.8001,0.7699
+2013-01-31 06:30:00,storm,NPCC,Connecticut,3.5,0,0.7925,0.7944
+2013-05-31 18:00:00,storm,SPP,"El Reno, S. Oklahoma City, Oklahoma",88.5,1,0.7924,0.8272
+2012-01-19 07:00:00,storm,WECC,"King, Pierce and Thurston Counties, Washington",32.0,1,0.7914,0.9567
+2013-12-06 01:51:00,storm,TRE,"Greater Houston, Texas",130.15,1,0.7894,0.6946
+2012-10-29 18:48:00,storm,NPCC,New York,136.8,1,0.7851,0.7617
+2013-10-27 04:27:00,storm,TRE,"Houston, Texas",18.0,0,0.7796,0.8095
+2013-11-17 16:47:00,storm,RFC,Central Indiana,72.0,1,0.7771,0.7616
+2013-11-17 16:47:00,storm,RFC,Central Indiana,67.2,1,0.7771,0.7616
+2013-05-31 01:00:00,storm,SPP,"Maumelle, Arkansas",0.5,0,0.7749,0.8602
+2013-09-11 16:00:00,storm,RFC,Southeastern Michigan,96.0,1,0.7694,0.7453
+2012-10-29 16:45:00,storm,NPCC,New Hampshire,42.25,1,0.7691,0.7601
+2013-11-17 16:19:00,storm,RFC,"Indiana, Michigan",25.683333333333334,1,0.7652,0.7322
+2012-07-21 02:19:00,storm,SPP,"City of Lubbock, Texas",3.0166666666666666,0,0.7649,0.8345
+2013-11-17 16:45:00,storm,RFC,Entire Lower Peninsula Michigan,96.0,1,0.7619,0.7694
+2012-06-29 22:15:00,storm,RFC,"Montgomery and Prince Georges Counties, Maryland; District of Columbia",134.61666666666667,1,0.7601,0.9236
+2014-05-09 18:00:00,storm,RFC,Indiana,43.0,1,0.7586,0.7835
+2012-10-29 16:01:00,storm,NPCC,"Greater New York City, New York",242.9833333333333,1,0.7569,0.8149
+2012-03-02 21:00:00,storm,RFC,"Southeastern, Michigan",67.5,1,0.7554,0.8222
+2012-03-02 21:00:00,storm,RFC,"Lower Peninsula, Michigan",44.5,1,0.7554,0.8222
+2012-10-29 16:03:00,storm,NPCC,New Jersey,187.95,1,0.7534,0.8198
+2014-04-12 18:15:00,storm,RFC,Western and Central Michigan,38.75,1,0.7461,0.8002
+2014-04-12 20:00:00,storm,RFC,Michigan,71.5,1,0.7407,0.7927
+2012-10-29 15:15:00,storm,NPCC,"Connecticut, Western Massachusetts",148.75,1,0.7397,0.8105
+2012-06-29 22:43:00,storm,RFC,"Greater Baltimore area, Maryland",133.11666666666667,1,0.7375,0.5766
+2012-06-29 23:30:00,storm,RFC,Northeast Illinois,2.5,0,0.7329,0.6297
+2012-10-29 18:46:00,storm,"NPCC, RFC",Southeast New York; New Jersey,111.98333333333332,1,0.7321,0.8709
+2013-12-23 15:20:00,storm,NPCC,Central Maine Maine,44.2,1,0.732,0.5198
+2013-11-17 14:31:00,storm,RFC,Entire ComEd Territory Illinois,7.983333333333333,0,0.7312,0.6914
+2012-07-07 06:06:00,storm,RFC,"Lower Valley, Central, Susquehanna Regions Pennsylvania",64.9,1,0.7282,0.6762
+2012-12-25 09:28:00,storm,TRE,"Houston, Texas",31.0,1,0.7245,0.6972
+2014-01-07 09:30:00,storm,SERC,"Piedmont North Carolina, Piedmont South Carolina",24.0,0,0.7212,0.8641
+2013-11-17 13:06:00,storm,RFC,North Central Indiana,72.0,1,0.715,0.6501
+2012-07-07 18:00:00,storm,RFC,Central and Northern New Jersey,49.016666666666666,1,0.7125,0.6981
+2012-05-29 20:35:00,storm,SPP,"Oklahoma City Metro Area, Oklahoma",37.41666666666666,1,0.7072,0.5221
+2012-10-29 14:40:00,storm,NPCC,"Boston, Southeast Massachusetts",27.6,1,0.7056,0.7917
+2012-06-29 19:00:00,storm,RFC,Maryland; West Virginia,192.71666666666667,1,0.7052,0.7514
+2012-10-29 14:45:00,storm,NPCC,Eastern Massachusetts,58.75,1,0.7017,0.8005
+2012-06-29 16:00:00,storm,RFC,Indiana; Michigan; Ohio; West Virginia,72.0,1,0.6974,0.9081
+2013-05-20 15:00:00,storm,SPP,"Moore, Oklahoma",50.0,1,0.6964,0.7315
+2012-06-29 17:15:00,storm,RFC,Eastern Indiana; Northern Kentucky; Greater Cincinnati area Ohio,78.73333333333333,1,0.6931,0.7172
+2013-01-31 03:05:00,storm,SERC,Central and Eastern Virginia,1.7166666666666666,0,0.6929,0.837
+2012-10-29 13:00:00,storm,NPCC,"Long Island, New York",337.0,1,0.6885,0.8189
+2012-07-01 17:45:00,storm,SERC,"Northern, Central and Eastern North Carolina",4.5,0,0.6845,0.541
+2013-11-17 07:00:00,storm,RFC,Michigan,83.9,1,0.6844,0.5959
+2013-05-29 20:58:00,storm,NPCC,Central and Eastern New York,41.91666666666666,1,0.6816,0.5427
+2012-10-29 19:00:00,storm,"RFC, SERC",Indiana; Kentucky; Michigan; Ohio,82.0,1,0.6807,0.8936
+2013-12-13 11:00:00,fuel supply,TRE,Texas,336.0,1,0.6764,0.1461
+2013-12-13 11:00:00,fuel supply,TRE,Texas,336.0,1,0.6764,0.1461
+2013-08-30 19:30:00,storm,RFC,Entire ComEd territory Illinois,6.0,0,0.6738,0.789
+2013-06-27 17:00:00,storm,RFC,South Eastern Michigan,7.0,0,0.6714,0.6003
+2013-04-18 15:00:00,storm,RFC,"Southeast Michigan, Michigan",60.5,1,0.6706,0.7154
+2012-12-26 14:50:00,storm,SERC,"Stantonsburg, North Carolina",4.833333333333333,0,0.6667,0.5539
+2012-06-29 18:24:00,storm,RFC,West Virginia,159.6,1,0.6652,0.7235
+2014-01-07 21:00:00,heat/demand,RFC,Unknown,12.0,0,0.6639,0.4686
+2013-01-17 19:02:00,storm,SERC,Northeast Tennessee,46.96666666666667,1,0.6523,0.7632
+2012-07-01 16:47:00,storm,SERC,"Tarboro, North Carolina",6.216666666666667,0,0.643,0.5931
+2013-07-23 23:38:00,storm,SPP,"Tulsa, Oklahoma",28.866666666666667,1,0.6385,0.708
+2013-07-19 22:30:00,storm,NPCC,New York,45.5,1,0.6354,0.7419
+2012-06-29 14:10:00,storm,RFC,"Dayton, Ohio",123.83333333333331,1,0.634,0.7122
+2013-11-02 00:00:00,storm,WECC,"King, Whatcom, and Skagit, Washington",54.0,1,0.6332,0.8566
+2013-07-19 18:00:00,storm,RFC,Michigan,15.0,0,0.633,0.7437
+2013-06-23 21:20:00,storm,WECC,Central Coast California,4.25,0,0.6186,0.3203
+2012-09-08 15:53:00,storm,SERC,Virginia,27.883333333333333,1,0.6031,0.6575
+2013-12-09 06:54:00,storm,SERC,Virginia Service Territory,7.466666666666667,0,0.6006,0.3814
+2012-08-29 09:48:00,storm,SPP,Louisiana,51.11666666666667,1,0.5948,0.4985
+2013-02-08 20:00:00,storm,NPCC,Central and eastern Massachusetts; Rhode Island,72.5,1,0.5944,0.6172
+2013-02-08 20:55:00,storm,NPCC,Boston area and Southeast Massachusetts,79.08333333333333,1,0.5899,0.6762
+2013-07-10 17:30:00,storm,RFC,AEP Ohio Power Footprint,26.5,1,0.5894,0.5532
+2013-08-29 14:57:00,storm,MRO,"Ashland, Wisconsin",0.5333333333333333,0,0.5886,0.6402
+2014-06-15 00:00:00,storm,MRO,Central Minnesota,1.0,0,0.587,0.7176
+2013-08-07 00:15:00,storm,MRO,Eastern Central Wisconsin,21.2,0,0.5864,0.775
+2012-04-20 14:27:00,storm,TRE,"Metropolitan Houston, Texas",14.0,0,0.5861,0.6463
+2013-05-31 19:30:00,storm,SERC,St. Louis Metro Area Missouri,24.5,1,0.5857,0.6584
+2012-04-16 15:46:00,storm,RFC,"Southeast, Michigan",58.23333333333333,1,0.5803,0.6971
+2013-06-13 15:30:00,storm,RFC,District of Columbia; Maryland,0.5,0,0.578,0.7461
+2012-08-04 17:30:00,storm,RFC,Northeast Illinois,18.666666666666668,0,0.5769,0.6965
+2014-01-06 22:00:00,heat/demand,RFC,Kentucky,0.0166666666666666,0,0.5748,0.4368
+2012-08-04 04:00:00,storm,RFC,Northern Indiana,3.333333333333333,0,0.5717,0.6147
+2012-02-19 17:00:00,storm,SERC,"Kentucky, Virginia, West Virginia",38.55,1,0.57,0.4534
+2012-07-27 17:19:00,storm,RFC,Central Indiana,24.0,0,0.5658,0.8061
+2012-07-24 07:30:00,storm,RFC,Northern Illinois,14.5,0,0.5647,0.7031
+2012-08-26 22:04:00,storm,FRCC,Florida,4.0,0,0.5631,0.5582
+2014-01-06 20:45:00,heat/demand,RFC,Unknown,24.25,1,0.5561,0.424
+2014-06-18 17:00:00,storm,RFC,Southeast Michigan,46.0,1,0.5554,0.6574
+2012-07-05 19:00:00,storm,SERC,Northeast Tennessee,21.0,0,0.552,0.5895
+2012-09-07 21:30:00,storm,SERC,Arkansas,3.5,0,0.5506,0.6061
+2012-07-07 04:00:00,fuel supply,WECC,CAISO California,72.0,1,0.5449,0.3438
+2013-08-16 16:58:00,storm,TRE,Houston Service Area Texas,31.0,1,0.5445,0.7465
+2012-07-24 07:01:00,storm,RFC,Northern Indiana,9.483333333333333,0,0.5435,0.471
+2014-03-04 09:06:00,fuel supply,MRO,"Weston, Wisconsin",312.0,1,0.5406,0.2331
+2012-03-20 08:00:00,storm,TRE,"Houston, Texas",5.0,0,0.5406,0.4676
+2013-06-24 19:30:00,storm,RFC,Illinois,22.266666666666666,0,0.5402,0.2814
+2013-06-24 19:30:00,storm,RFC,Indiana,45.5,1,0.5402,0.2814
+2012-07-19 10:30:00,fuel supply,NPCC,"Niagara County, New York",288.5,1,0.5393,0.2294
+2013-08-07 07:30:00,fuel supply,MRO,"Green Bay, Wisconsin",1.7333333333333334,0,0.5324,0.2031
+2013-06-21 17:39:00,storm,MRO,Minneapolis/St. Paul area Minnesota,60.35,1,0.5299,0.4047
+2012-07-18 14:16:00,storm,RFC,"Southeast Ohio, Northern Kentucky, Southern Indiana",33.7,1,0.526,0.5885
+2013-06-21 03:00:00,storm,MRO,Minnesota,129.0,1,0.5258,0.4754
+2014-02-05 08:05:00,storm,RFC,"Baltimore, Maryland",0.0166666666666666,0,0.525,0.4754
+2014-06-10 21:50:00,storm,RFC,West Virginia,16.666666666666668,0,0.5241,0.5526
+2012-07-26 18:30:00,storm,RFC,Eastern Ohio,22.866666666666667,0,0.5193,0.667
+2014-04-30 03:50:00,storm,SERC,"Alabama, Florida, Georgia",10.166666666666666,0,0.5137,0.5048
+2014-06-30 23:20:00,storm,RFC,North Central Indiana,17.666666666666668,0,0.5064,0.5761
+2012-07-18 23:00:00,storm,RFC,Northern Illinois,7.0,0,0.5055,0.4143
+2014-02-05 07:35:00,storm,RFC,"Lancaster Region, Pennsylvania",44.46666666666667,1,0.5047,0.4035
+2014-03-07 03:30:00,storm,SERC,"Triad, North Carolina",17.5,0,0.5022,0.6175
+2012-07-26 18:21:00,storm,RFC,North/Central Pennsylvania,53.15,1,0.4978,0.6349
+2012-07-18 16:20:00,storm,RFC,Eastern Ohio,2.75,0,0.4926,0.4562
+2012-03-02 12:37:00,storm,SERC,Northern Alabama; Southeast Tennessee,71.4,1,0.4901,0.4814
+2013-11-17 12:35:00,storm,SERC,"Central Missouri, Central Illinois",70.41666666666667,1,0.4892,0.3575
+2013-07-17 15:30:00,fuel supply,NPCC,"Holtsville, New York",39.25,1,0.4889,0.2151
+2014-06-30 20:00:00,storm,RFC,Illinois,46.5,1,0.4886,0.5528
+2013-11-21 19:45:00,storm,WECC,Northern California,7.583333333333333,0,0.4864,0.7378
+2012-06-19 04:30:00,storm,MRO,"Minneapolis/St. Paul, Minnesota",42.5,1,0.4857,0.4163
+2012-11-17 10:00:00,fuel supply,TRE,"Comanche Peak, Texas",24.0,0,0.4833,0.2694
+2012-10-30 00:00:00,attack,RFC,"Hyattsville, Maryland",0.0333333333333333,0,0.4795,0.2432
+2012-07-26 18:14:00,storm,RFC,Western Pennsylvania,24.0,0,0.4763,0.6349
+2014-04-03 14:45:00,fuel supply,MRO,Wisconsin,141.13333333333333,1,0.4614,0.1829
+2014-02-05 05:00:00,storm,RFC,Pennsylvania,0.0166666666666666,0,0.4596,0.4859
+2014-02-05 07:00:00,fuel supply,NPCC,New York,432.0,1,0.4568,0.2144
+2014-06-07 23:00:00,storm,SERC,"North and Central , Alabama",6.5,0,0.4561,0.4525
+2013-03-06 08:22:00,storm,SERC,Northwest Virginia,26.08333333333333,1,0.4548,0.4608
+2013-08-05 18:35:00,storm,WECC,"Vancouver, British Columbia",0.1666666666666666,0,0.4531,0.5084
+2014-04-04 03:30:00,storm,SERC,Central Arkansas,4.75,0,0.4528,0.4923
+2013-02-13 17:39:00,fuel supply,NPCC,Eastern Massachusetts,48.18333333333333,1,0.4507,0.2164
+2014-02-05 00:00:00,storm,RFC,"Maryland, West Virginia",114.0,1,0.449,0.6602
+2014-02-05 01:00:00,storm,RFC,Pennsylvania,115.66666666666669,1,0.4432,0.6623
+2013-06-13 15:20:00,storm,"RFC, SERC",Ohio; Virginia; West Virginia,29.83333333333333,1,0.4414,0.61
+2012-08-29 09:00:00,storm,SERC,Louisiana,51.0,1,0.4405,0.3682
+2014-01-23 13:04:00,heat/demand,RFC,Maryland,19.933333333333334,0,0.436,0.3223
+2012-12-06 21:18:00,heat/demand,WECC,"Greater San Jose, California",0.2166666666666666,0,0.436,0.2657
+2014-04-29 09:37:00,storm,SERC,"Northeastern Mississippi, Northern Alabama",47.38333333333333,1,0.4349,0.4276
+2012-08-28 06:00:00,storm,SERC,"Arkansas, Louisiana, Mississippi",170.0,1,0.4297,0.2631
+2014-01-18 09:00:00,heat/demand,TRE,Texas,0.75,0,0.4233,0.4867
+2012-08-29 06:53:00,storm,SERC,Louisiana,31.116666666666667,1,0.423,0.3273
+2014-02-06 14:15:00,fuel supply,WECC,California,5.4,0,0.4182,0.1429
+2014-02-21 02:53:00,storm,SERC,Northern/Northeastern Georgia,18.116666666666667,0,0.4117,0.7233
+2014-03-03 01:48:00,fuel supply,WECC,"Mid-Columbia River Generation, Washington",0.0166666666666666,0,0.4106,0.3265
+2014-06-30 17:55:00,storm,MRO,Southeast  Wisconsin,8.966666666666667,0,0.4084,0.4698
+2014-02-12 12:10:00,storm,SERC,North Carolina,75.16666666666667,1,0.4043,0.5203
+2012-06-12 15:57:00,storm,TRE,"Houston, Texas",37.0,1,0.4017,0.4093
+2013-03-18 19:30:00,storm,SERC,North/Central Alabama; Georgia,43.0,1,0.3995,0.3141
+2014-02-06 13:05:00,fuel supply,WECC,Northern California,6.166666666666667,0,0.3978,0.1787
+2014-01-08 06:00:00,heat/demand,SERC,South Carolina,3.0,0,0.3931,0.5647
+2012-06-29 22:29:00,storm,SERC,Virginia,113.11666666666666,1,0.3893,0.3073
+2014-03-12 19:35:00,storm,SERC,North Carolina,16.416666666666668,0,0.3874,0.3046
+2014-02-12 11:03:00,storm,SERC,South Carolina,69.61666666666666,1,0.3849,0.4912
+2014-02-06 13:00:00,fuel supply,WECC,California,9.0,0,0.3774,0.1906
+2014-02-20 16:40:00,storm,SERC,"Missouri, Illinois",31.316666666666663,1,0.3773,0.5685
+2013-09-10 17:42:00,heat/demand,RFC,"Erie, Pennsylvania",6.333333333333333,0,0.3697,0.2716
+2014-02-12 07:48:00,storm,SERC,Northern/Northeastern Georgia,68.7,1,0.3694,0.3986
+2013-06-13 17:45:00,storm,SERC,Central and Eastern North Carolina,24.75,1,0.3669,0.4745
+2013-06-13 20:47:00,storm,SERC,Southern Company Territory,26.0,1,0.3591,0.4746
+2014-03-03 06:40:00,storm,SERC,Tennessee,8.8,0,0.3579,0.4927
+2013-02-26 13:00:00,storm,SERC,Northern Missouri,69.0,1,0.3563,0.3824
+2013-08-19 19:06:00,storm,WECC,Central California,10.933333333333334,0,0.3554,0.4319
+2014-01-27 14:20:00,heat/demand,RFC,Maryland,30.666666666666668,1,0.3554,0.2054
+2014-06-05 03:00:00,storm,SERC,"Shelby County, Tennessee",68.75,1,0.3543,0.417
+2013-06-13 16:08:00,storm,SERC,"Richmond Metro area, Virginia",25.133333333333333,1,0.3483,0.5266
+2012-01-10 21:30:00,heat/demand,TRE,"Rusk County, Texas",0.0,0,0.3422,0.3176
+2014-06-05 13:06:00,storm,SERC,West Tennessee,0.0166666666666666,0,0.3388,0.4651
+2014-01-07 18:00:00,heat/demand,SERC,South Carolina,5.0,0,0.3357,0.5143
+2013-12-04 05:00:00,heat/demand,WECC,"Idaho Falls Area Idaho, Utah-Idaho Border Utah",11.283333333333331,0,0.3263,0.2035
+2014-01-07 16:15:00,heat/demand,SERC,North Carolina,21.08333333333333,0,0.3189,0.5099
+2012-01-13 09:20:00,attack,RFC,"Newark, Delaware",0.0,0,0.3174,0.4175
+2012-06-19 05:30:00,fuel supply,WECC,CAISO Territory California,48.0,1,0.3117,0.1203
+2013-06-13 13:17:00,storm,SERC,Western Piedmont North Carolina,28.3,1,0.308,0.4262
+2014-01-25 10:00:00,attack,MRO,"Madison, Wisconsin",1.0,0,0.305,0.3813
+2012-05-07 17:45:00,heat/demand,RFC,Eastern Ohio,0.35,0,0.3045,0.3156
+2012-06-11 19:50:00,storm,SERC,North/Central Alabama; North/Central Georgia,19.166666666666668,0,0.2968,0.183
+2014-01-07 07:58:00,heat/demand,SERC,North Carolina,3.033333333333333,0,0.2912,0.6239
+2014-01-06 07:01:00,heat/demand,TRE,Texas,25.98333333333333,1,0.2876,0.5542
+2012-10-25 18:51:00,attack,RFC,"Newark, Delaware",0.65,0,0.2873,0.4884
+2012-10-25 00:00:00,attack,RFC,"West Lanham, Maryland",0.0166666666666666,0,0.2873,0.2641
+2012-01-12 08:26:00,attack,RFC,"Newark, Delaware",0.0,0,0.2803,0.2523
+2012-06-25 16:04:00,storm,SERC,Central Virginia,21.683333333333334,0,0.2695,0.3236
+2014-01-07 06:00:00,heat/demand,SERC,Tennessee,2.5,0,0.2573,0.4568
+2014-01-07 06:00:00,heat/demand,SERC,Northeast Tennessee,2.5,0,0.2573,0.4568
+2014-01-23 16:00:00,heat/demand,SERC,Tennessee,20.0,0,0.2556,0.5059
+2014-01-23 04:00:00,heat/demand,SERC,Tennessee,32.0,1,0.25,0.5714
+2012-07-16 11:27:00,heat/demand,SPP,"Little Rock, Arkansas",1.0333333333333334,0,0.2496,0.3692
+2012-01-05 10:35:00,attack,SPP,"CSWS/AEP West territory, Oklahoma",1.8333333333333333,0,0.2478,0.3722
+2014-01-24 15:30:00,attack,MRO,Wisconsin,1.5,0,0.2432,0.2359
+2013-01-16 14:25:00,attack,RFC,"Denton, Maryland",0.0,0,0.2405,0.2192
+2012-10-24 15:15:00,attack,RFC,"Frankford, Delaware",0.0166666666666666,0,0.2377,0.2915
+2012-01-09 13:36:00,heat/demand,SERC,Louisiana,35.483333333333334,1,0.2375,0.2732
+2012-10-30 13:20:00,attack,NPCC,"Fitzwilliam, New Hampshire",0.0833333333333333,0,0.2347,0.0676
+2012-01-05 10:28:00,attack,SPP,"Creek County, Oklahoma",1.95,0,0.2321,0.4074
+2012-10-11 00:00:00,attack,RFC,"Seat Pleasant, Maryland",0.0166666666666666,0,0.2317,0.0652
+2013-10-06 07:25:00,attack,SPP,"Jacksonville, Arkansas",1.8333333333333333,0,0.2296,0.1185
+2012-08-01 12:00:00,heat/demand,SPP,"Oklahoma, Arkansas",0.0,0,0.2273,0.2367
+2013-07-18 11:30:00,heat/demand,NPCC,Upstate New York,30.0,1,0.226,0.2356
+2012-01-29 12:45:00,attack,WECC,"Roosevelt Substation, Tacoma, Washington",0.0,0,0.2227,0.7653
+2013-01-07 10:43:00,attack,RFC,"Denton, Maryland",0.0,0,0.2202,0.2252
+2012-03-04 01:27:00,attack,RFC,"Prince Georges County, Maryland",5.516666666666667,0,0.2151,0.1966
+2012-10-24 00:00:00,attack,RFC,"Brighton, Maryland",0.0166666666666666,0,0.2107,0.1099
+2012-10-24 00:00:00,attack,RFC,"Kingswood, Maryland",0.0166666666666666,0,0.2107,0.1099
+2014-03-02 19:00:00,heat/demand,TRE,ERCOT Region Texas,38.0,1,0.2088,0.3113
+2014-02-07 16:50:00,heat/demand,TRE,Texas,3.6666666666666665,0,0.2084,0.2533
+2014-01-22 13:55:00,attack,MRO,Wisconsin,1.0,0,0.1951,0.1973
+2014-02-07 16:30:00,heat/demand,TRE,ERCOT Region Texas,16.5,0,0.1946,0.251
+2013-05-17 08:35:00,attack,RFC,"Newcastle, Delaware",0.0166666666666666,0,0.1922,0.0802
+2014-01-22 00:30:00,attack,MRO,Wisconsin,2.25,0,0.1913,0.2842
+2014-01-29 16:00:00,attack,MRO,Unknown,0.7333333333333333,0,0.1898,0.2135
+2013-01-16 07:41:00,attack,MRO,"Webster County, Iowa",27.28333333333333,1,0.1893,0.0676
+2012-10-09 00:00:00,attack,RFC,"Seat Pleasant, Maryland",0.0166666666666666,0,0.1859,0.0544
+2012-01-15 09:35:00,attack,WECC,"Tacoma, Washington",0.0,0,0.1844,0.5802
+2014-01-06 14:37:00,attack,RFC,Utah,0.0166666666666666,0,0.1842,0.3637
+2014-05-15 12:10:00,attack,RFC,"Whiting, Indiana",0.05,0,0.1833,0.2276
+2014-05-16 10:43:00,fire,WECC,"San Diego & Orange Counties, California",10.283333333333331,0,0.1812,0.1903
+2014-01-26 21:00:00,attack,WECC,Oregon,14.0,0,0.1808,0.2627
+2012-01-27 09:40:00,attack,WECC,"Frederickson Substation, Spanaway, Washington",0.0,0,0.1805,0.4798
+2013-10-26 07:13:00,attack,WECC,Arizona,0.0166666666666666,0,0.1752,0.0787
+2012-06-23 18:57:00,heat/demand,NPCC,"North Shore, Massachusetts",0.5166666666666667,0,0.1731,0.1684
+2014-01-16 12:30:00,attack,WECC,Arizona,1.45,0,0.1709,0.5595
+2014-02-06 15:35:00,heat/demand,TRE,ERCOT Region Texas,19.916666666666668,0,0.1706,0.2322
+2012-08-13 15:52:00,heat/demand,WECC,CFE (Mexico & U.S.),3.8666666666666663,0,0.1675,0.2361
+2014-01-22 21:15:00,attack,RFC,"Burlington County, New Jersey",5.883333333333334,0,0.1673,0.2247
+2013-01-16 16:45:00,attack,WECC,"San Juan County, New Mexico",2.683333333333333,0,0.1617,0.1597
+2012-05-31 23:45:00,attack,RFC,"Columbus, Ohio",4.75,0,0.1614,0.2561
+2014-05-11 18:38:00,attack,MRO,"MISO North, Minnesota",0.0166666666666666,0,0.1605,0.2597
+2012-09-24 00:00:00,attack,RFC,"Brighton, Maryland",24.0,0,0.1603,0.0846
+2012-07-09 12:15:00,other,WECC,"Alberta, Canada",3.983333333333333,0,0.1602,0.1747
+2014-02-06 13:58:00,heat/demand,TRE,Rio Grande Valley Texas,6.7,0,0.1597,0.1705
+2012-10-22 00:00:00,attack,RFC,"Norbeck, Maryland",0.0166666666666666,0,0.1564,0.0661
+2013-12-06 08:47:00,attack,WECC,"Saratoga, Utah",0.0333333333333333,0,0.1556,0.0381
+2013-07-02 14:20:00,heat/demand,WECC,"Alberta, Canada",73.16666666666667,1,0.1552,0.111
+2012-06-08 17:20:00,heat/demand,WECC,"Denver Metro Area, Colorado",0.0833333333333333,0,0.1551,0.1028
+2013-05-29 09:52:00,attack,RFC,"Wilmington, Delaware",0.0166666666666666,0,0.1524,0.1756
+2012-11-02 09:30:00,attack,NPCC,"Concord, Vermont",2.6666666666666665,0,0.1511,0.033
+2012-01-17 10:31:00,attack,TRE,"Austin, Texas",6.833333333333333,0,0.1507,0.3195
+2014-01-22 09:45:00,attack,RFC,Ohio,10.566666666666666,0,0.1499,0.3137
+2013-05-15 14:11:00,attack,RFC,"Wilmington, Delaware",0.0166666666666666,0,0.1493,0.17
+2013-10-19 14:32:00,attack,WECC,California,7.466666666666667,0,0.1473,0.29
+2014-01-17 12:20:00,attack,RFC,Ohio,0.0,0,0.1459,0.3645
+2012-01-09 14:30:00,attack,NPCC,"Watertown, Connecticut",1.0,0,0.1456,0.199
+2014-01-15 14:32:00,attack,WECC,Utah,0.2166666666666666,0,0.1454,0.2739
+2013-12-27 09:43:00,attack,WECC,Gilabend Arizona,3.0,0,0.1441,0.1049
+2013-11-12 09:14:00,other,SPP,Eastern Central New Mexico,1.2666666666666666,0,0.1437,0.2009
+2013-05-20 17:22:00,heat/demand,SERC,Gonzales Area Louisiana,3.783333333333333,0,0.1434,0.2306
+2012-10-30 15:00:00,attack,WECC,"Pueblo, Colorado",0.0166666666666666,0,0.1424,0.1426
+2012-04-07 14:35:00,attack,RFC,"Newark, Delaware",0.0166666666666666,0,0.142,0.2332
+2013-03-29 10:16:00,attack,RFC,Maryland,0.0166666666666666,0,0.1419,0.1646
+2013-08-23 07:30:00,attack,RFC,"New Castle, Delaware",0.0166666666666666,0,0.1413,0.0852
+2012-10-23 09:10:00,system operations,RFC,"Crawfordsville, Indiana",0.1,0,0.1404,0.044
+2012-12-03 12:02:00,attack,WECC,"Tacoma, Washington",0.4666666666666667,0,0.1402,0.2738
+2012-10-05 17:30:00,attack,WECC,"Greater Sacramento, California",0.3333333333333333,0,0.1398,0.1244
+2013-03-03 16:27:00,attack,RFC,"Tacoma Park, Maryland",1.8833333333333333,0,0.1367,0.2442
+2014-01-23 21:17:00,attack,WECC,"Wynoochee, Washington",19.716666666666665,0,0.1365,0.1778
+2012-01-24 11:22:00,attack,WECC,"Tacoma, Washington",0.0,0,0.1349,0.422
+2012-04-07 12:25:00,attack,RFC,"Newark, Delaware",0.0166666666666666,0,0.133,0.1784
+2012-06-30 15:00:00,heat/demand,SERC,Northeast Tennessee,45.0,1,0.1325,0.182
+2013-03-28 13:01:00,attack,RFC,"Wilmington, Delaware",0.0166666666666666,0,0.131,0.1832
+2013-01-28 16:46:00,attack,WECC,"Tacoma Narrows Crossing, Washington",1.2333333333333334,0,0.131,0.1483
+2013-05-30 10:15:00,attack,NPCC,"Saranac, New York",0.0166666666666666,0,0.1309,0.1994
+2012-01-04 12:14:00,attack,WECC,"Tacoma, Washington",0.0,0,0.1306,0.3276
+2012-01-11 07:19:00,attack,WECC,Nevada,1.8,0,0.1288,0.1899
+2012-03-16 16:00:00,attack,RFC,"New Castle, Delaware",0.0,0,0.1279,0.1945
+2012-10-25 14:39:00,attack,WECC,"Pueblo, Colorado",3.35,0,0.1257,0.1987
+2012-04-07 09:31:00,attack,RFC,"Newark, Delaware",0.0166666666666666,0,0.125,0.1527
+2013-08-01 23:19:00,other,FRCC,Daytona Beach Florida,1.5,0,0.1238,0.4919
+2013-12-10 01:01:00,attack,WECC,Arizona,24.0,0,0.1234,0.0596
+2012-10-14 10:36:00,system operations,WECC,Northern California,0.2333333333333333,0,0.1232,0.017
+2014-04-23 19:45:00,heat/demand,SERC,"Baton Rouge, Louisiana",0.8666666666666667,0,0.123,0.1344
+2013-06-27 01:10:00,attack,RFC,"Richie Substation,Seat Pleasant, Maryland",1.5833333333333333,0,0.1229,0.068
+2013-02-08 11:38:00,equipment,RFC,District of Columbia; Prince George's County Maryland,2.65,0,0.1229,0.0609
+2012-03-23 19:34:00,attack,RFC,"Newark, Delaware",0.0,0,0.1197,0.2097
+2013-02-15 00:00:00,attack,RFC,"Tuxedo, Maryland",0.0166666666666666,0,0.1187,0.1318
+2013-08-22 12:55:00,attack,RFC,"New Castle, Delaware",1.8333333333333333,0,0.1183,0.2535
+2012-10-29 15:00:00,attack,WECC,"Las Vegas, Nevada",0.0166666666666666,0,0.1154,0.2286
+2013-02-16 07:54:00,attack,RFC,Prince George's County Maryland,0.0,0,0.1135,0.0601
+2012-12-17 06:55:00,attack,WECC,"Tacoma, Washington",0.0833333333333333,0,0.1134,0.0864
+2014-01-13 16:44:00,attack,WECC,Arizona,0.0166666666666666,0,0.1131,0.2969
+2013-06-28 17:14:00,attack,RFC,New Castle Delaware,0.0166666666666666,0,0.1115,0.1434
+2014-04-25 07:00:00,attack,RFC,Delaware,0.5,0,0.1114,0.0507
+2012-06-29 16:00:00,heat/demand,SERC,"Eastern, Arkansas",5.0,0,0.1113,0.2111
+2014-03-14 12:34:00,attack,MRO,"Boone County, Iowa",4.183333333333334,0,0.1102,0.1685
+2013-12-30 11:00:00,attack,WECC,North of Roosevelt lake Arizona,45.0,1,0.1101,0.1242
+2013-12-30 11:00:00,attack,WECC,Salt Lake County Utah,0.0166666666666666,0,0.1101,0.1242
+2013-05-31 19:07:00,system operations,MRO,"Southeast Kansas, Northeast Oklahoma",19.133333333333333,0,0.1092,0.0358
+2012-10-29 09:00:00,attack,WECC,"LaGrande, Washington",0.0166666666666666,0,0.1081,0.2005
+2012-04-01 20:27:00,attack,MRO,"Council Bluffs, Iowa",36.016666666666666,1,0.1073,0.205
+2012-05-24 15:20:00,attack,NPCC,"Tyngsborough, Massachusetts",26.15,1,0.1072,0.1193
+2013-11-01 13:26:00,attack,RFC,"Wilmington, Delaware",0.0166666666666666,0,0.1068,0.1663
+2013-09-29 00:00:00,attack,SERC,Cabot Arkansas,1.0,0,0.1026,0.0765
+2012-10-15 14:15:00,attack,NPCC,Southeast Vermont,0.0166666666666666,0,0.1014,0.1876
+2013-02-13 09:30:00,attack,RFC,"Fort Washington, Maryland",0.0,0,0.1009,0.1276
+2013-11-17 12:35:00,system operations,RFC,"Rochelle, Indiana",1.0833333333333333,0,0.0988,0.0119
+2014-04-27 12:07:00,attack,WECC,"Albany, Oregon",0.0333333333333333,0,0.0985,0.1731
+2013-03-23 07:00:00,attack,NPCC,Connecticut,2.0,0,0.0984,0.0547
+2013-08-29 09:50:00,attack,SPP,"Joplin, Missouri",0.0,0,0.0977,0.1517
+2014-05-08 08:39:00,attack,WECC,"Imperial Valley, California",0.0166666666666666,0,0.0972,0.0603
+2012-03-29 12:01:00,system operations,RFC,"Lansing, Michigan",0.0166666666666666,0,0.0958,0.0172
+2014-03-11 00:00:00,attack,MRO,"Boone County, Iowa",48.0,1,0.0951,0.0815
+2013-04-23 11:00:00,attack,RFC,"Newark, Delaware",0.0166666666666666,0,0.0947,0.145
+2012-05-11 11:05:00,attack,WECC,"Lakewood, Washington",0.25,0,0.0939,0.1631
+2012-05-29 18:30:00,attack,WECC,"Alder Dam, Pierce County, Washington",1.1666666666666667,0,0.0939,0.0777
+2013-02-07 08:32:00,attack,RFC,"Cincinnati, Ohio",1.25,0,0.0935,0.0476
+2013-10-11 14:30:00,attack,SERC,"Keo, Arkansas",4.0,0,0.0925,0.0925
+2013-04-09 11:30:00,attack,RFC,"Delaware City, Delaware",0.0166666666666666,0,0.0923,0.1423
+2013-06-17 16:17:00,heat/demand,FRCC,Hillsborough County Florida,2.533333333333333,0,0.0922,0.2394
+2012-08-19 08:42:00,attack,WECC,"El Paso, Texas",3.433333333333333,0,0.0917,0.0918
+2013-05-14 10:25:00,attack,NPCC,New Hampshire,1.2833333333333334,0,0.0908,0.1667
+2012-03-30 11:10:00,attack,NPCC,Vermont,0.3333333333333333,0,0.0894,0.1339
+2013-01-17 20:35:00,system operations,SERC,"Elizabeth City, North Carolina",0.75,0,0.0883,0.165
+2013-10-21 05:18:00,system operations,WECC,Location Unknown,0.25,0,0.0855,0.0167
+2012-06-06 12:37:00,attack,RFC,"Columbia Heights, NW, Washington DC",0.0,0,0.0855,0.1363
+2013-10-16 11:15:00,attack,SERC,"Roxboro Plant, North Carolina",6.75,0,0.0848,0.0762
+2013-05-28 13:00:00,attack,NPCC,Maine,5.0,0,0.0844,0.1093
+2014-05-20 07:01:00,attack,WECC,"Duchesne County, Utah",0.0166666666666666,0,0.0841,0.047
+2014-05-12 13:14:00,attack,WECC,"Layton, Utah",0.0166666666666666,0,0.0835,0.1386
+2012-06-29 10:45:00,attack,RFC,"New Castle, Delaware",0.0,0,0.0827,0.1404
+2012-09-11 13:00:00,system operations,WECC,"Alberta, Canada",0.9666666666666668,0,0.0826,0.0235
+2013-11-05 10:10:00,attack,RFC,Indiana,48.0,1,0.0825,0.1638
+2014-03-20 00:00:00,attack,NPCC,New York,0.0166666666666666,0,0.0819,0.0757
+2012-08-11 12:45:00,attack,WECC,"Tacoma, Washington",4.25,0,0.0814,0.1839
+2012-05-07 12:50:00,attack,NPCC,"Williston, Vermont",1.1666666666666667,0,0.0813,0.1468
+2013-05-14 00:01:00,attack,WECC,"Portland, Oregon",13.966666666666669,0,0.0813,0.0932
+2013-05-02 06:52:00,system operations,WECC,Unknown,3.25,0,0.0812,0.0215
+2013-07-05 00:05:00,attack,WECC,California,1.7666666666666666,0,0.0806,0.165
+2013-03-27 10:25:00,attack,NPCC,Western Massachusetts,1.9,0,0.0805,0.1071
+2012-09-05 10:56:00,system operations,WECC,"Alberta, Canada",0.5166666666666667,0,0.0794,0.0324
+2012-04-21 15:02:00,attack,NPCC,"East Bridgewater, Massachusetts",5.116666666666666,0,0.0794,0.1421
+2013-06-21 23:14:00,attack,RFC,New Castle Delaware,0.0166666666666666,0,0.079,0.0839
+2013-03-18 05:21:00,heat/demand,PR,Systemwide Puerto Rico,0.3333333333333333,0,0.079,0.0321
+2012-07-06 15:05:00,attack,WECC,"Tacoma, Washington",0.0166666666666666,0,0.0785,0.138
+2014-05-27 11:00:00,attack,WECC,"Phoenix, Arizona",5.883333333333334,0,0.0781,0.144
+2013-02-09 08:30:00,attack,WECC,"El Paso, New Mexico",6.5,0,0.0778,0.0779
+2012-04-23 08:11:00,attack,RFC,Northwest Indiana,4.6,0,0.0776,0.0542
+2012-04-21 20:55:00,attack,WECC,"Tacoma, Washington",43.583333333333336,1,0.0774,0.2437
+2013-07-10 14:30:00,attack,NPCC,"Boston, Massachusetts",0.25,0,0.0771,0.098
+2013-02-02 21:15:00,attack,WECC,"El Paso, New Mexico",1.0,0,0.0766,0.1883
+2012-03-28 10:17:00,attack,WECC,"Graham, Washington",0.0,0,0.0764,0.0989
+2013-06-20 18:00:00,attack,RFC,"Richie Station (No. 123), Maryland",16.0,0,0.0748,0.1444
+2012-07-19 12:32:00,attack,RFC,"Newark, Delaware",0.0166666666666666,0,0.0741,0.1194
+2013-05-09 13:21:00,system operations,WECC,"Alberta, Canada; Washington State",3.0,0,0.0729,0.0164
+2012-11-15 21:09:00,attack,MRO,Iowa; Michigan,0.2833333333333333,0,0.0726,0.1099
+2012-04-19 07:53:00,attack,WECC,"Tacoma, Washington",8.116666666666667,0,0.0724,0.049
+2013-03-03 06:39:00,system operations,WECC,"Merced County, California",3.8333333333333335,0,0.0724,0.0319
+2013-06-22 16:12:00,attack,WECC,Eastern Montana,1.55,0,0.0718,0.1387
+2013-06-28 18:02:00,equipment,WECC,"Los Angeles and Orange Counties, California",2.7333333333333334,0,0.0714,0.0336
+2013-04-25 16:00:00,attack,WECC,"Sunol, California",18.916666666666668,0,0.0707,0.1253
+2012-04-03 11:10:00,attack,NPCC,"West Rutland, Vermont",0.25,0,0.0703,0.1
+2013-06-22 04:59:00,attack,WECC,Medford Oregon,16.483333333333334,0,0.07,0.0674
+2014-03-26 16:00:00,attack,MRO,Iowa,356.0,1,0.0684,0.1687
+2013-08-04 03:00:00,attack,WECC,Utah,1.0,0,0.0683,0.1376
+2013-04-03 11:05:00,attack,WECC,"Colorado Springs, Colorado",2.9166666666666665,0,0.068,0.1006
+2013-05-01 09:22:00,system operations,WECC,Northeast Colorado,0.0333333333333333,0,0.0677,0.0393
+2013-05-29 00:00:00,attack,SERC,"Henrico County, Virginia",0.0333333333333333,0,0.0669,0.0692
+2013-11-02 08:25:00,attack,WECC,"Salt Lake City, Utah",0.0166666666666666,0,0.0662,0.0589
+2013-11-24 07:38:00,attack,WECC,Salt Lake County Utah,0.0166666666666666,0,0.066,0.0599
+2014-01-21 12:14:00,attack,SERC,Missouri,0.4166666666666667,0,0.0658,0.4177
+2013-07-25 13:10:00,attack,WECC,"Polk Substation, Tacoma Washington",0.0833333333333333,0,0.0657,0.1253
+2012-03-04 13:38:00,attack,SERC,Texas,21.366666666666667,0,0.0653,0.1957
+2014-03-05 17:06:00,attack,WECC,"Salt Lake City, Utah",0.0166666666666666,0,0.0652,0.1168
+2012-04-11 09:00:00,attack,NPCC,"North Attleboro, Massachusetts",0.0,0,0.0651,0.1102
+2012-02-23 23:12:00,attack,NPCC,"Londonderry, New Hampshire",1.8,0,0.0649,0.1755
+2014-05-26 12:31:00,system operations,WECC,"British Columbia & Alberta, Canada",0.7833333333333333,0,0.0647,0.031
+2012-12-31 14:21:00,system operations,SERC,North Carolina,2.15,0,0.0645,0.0361
+2012-04-04 15:32:00,attack,WECC,"WAPA-SNR Regional Office, California",47.96666666666667,1,0.0645,0.1078
+2013-04-21 02:11:00,attack,SERC,East Tennessee,10.316666666666666,0,0.0642,0.0663
+2012-02-11 08:55:00,attack,WECC,"Tacoma, Washington",0.0,0,0.0642,0.0619
+2013-08-07 14:30:00,attack,WECC,"Arlington, Oregon",22.5,0,0.064,0.1069
+2014-03-24 11:07:00,attack,WECC,"Salt Lake City, Utah",0.0166666666666666,0,0.0636,0.1107
+2012-03-02 13:45:00,equipment,SERC,"Piggott, Arkansas",1.75,0,0.0627,0.0601
+2012-04-03 15:33:00,attack,WECC,"Seattle, Washington",4.866666666666666,0,0.0622,0.1096
+2012-06-02 07:30:00,attack,WECC,"San Francisco, California",4.083333333333333,0,0.0619,0.0579
+2012-02-15 05:33:00,attack,WECC,"Port Orchard, Washington",11.95,0,0.0616,0.0323
+2012-04-12 08:08:00,attack,WECC,"Tacoma, Washington",8.366666666666667,0,0.0611,0.0529
+2013-02-21 11:00:00,attack,WECC,"Las Cruces, New Mexico",0.5,0,0.0606,0.1237
+2013-08-01 11:00:00,attack,NPCC,"Newburgh, New York",5.0,0,0.0603,0.1311
+2012-08-04 03:55:00,system operations,WECC,"Temblor Substation in McKittrick, California",0.4333333333333333,0,0.0598,0.0456
+2012-02-23 05:45:00,attack,TRE,"South East College Station, Texas",9.283333333333331,0,0.0598,0.0482
+2012-02-11 08:47:00,attack,WECC,"Lamar, Colorado",1.7166666666666666,0,0.0592,0.0709
+2014-05-08 01:00:00,attack,SERC,Mississippi,0.0166666666666666,0,0.0587,0.0795
+2013-06-21 07:40:00,attack,WECC,Pahrump Nevada,4.566666666666666,0,0.0581,0.0243
+2012-03-26 13:24:00,attack,WECC,"Tacoma, Washington",0.0,0,0.0581,0.1041
+2014-05-23 15:00:00,attack,SERC,North Carolina,52.0,1,0.0576,0.2157
+2013-11-16 15:15:00,attack,WECC,"Salt Lake County, Utah",0.0166666666666666,0,0.0575,0.2089
+2014-02-12 14:15:00,attack,NPCC,Vermont,0.0166666666666666,0,0.0572,0.0899
+2014-03-03 17:25:00,attack,NPCC,New York,0.0,0,0.0564,0.1482
+2013-07-03 09:34:00,attack,WECC,Sacramento California,1.3,0,0.0563,0.1075
+2013-04-01 08:40:00,attack,NPCC,Connecticut,0.0166666666666666,0,0.0561,0.0447
+2012-04-17 06:11:00,attack,WECC,"San Diego County, California",11.616666666666667,0,0.056,0.0326
+2013-04-16 01:47:00,attack,WECC,California,61.63333333333333,1,0.0559,0.0479
+2012-04-23 11:56:00,attack,WECC,"Snohomish County, Washington",3.65,0,0.0559,0.0913
+2012-04-15 19:38:00,attack,SERC,Georgia,1.8,0,0.0557,0.2201
+2013-07-18 23:45:00,equipment,WECC,Southern Orange County California,10.333333333333334,0,0.0556,0.0531
+2012-08-16 13:13:00,attack,RFC,Northern Indiana,0.0,0,0.0552,0.0974
+2014-03-17 17:25:00,attack,WECC,"Glendale, Arizona",7.516666666666667,0,0.0542,0.1124
+2013-07-18 03:15:00,attack,WECC,Utah,0.7333333333333333,0,0.0534,0.0515
+2013-08-06 16:00:00,attack,WECC,"Holloman Air Force Base, New Mexico",1.5333333333333334,0,0.0531,0.1273
+2013-07-12 10:00:00,attack,WECC,Washington,0.0166666666666666,0,0.0531,0.1356
+2013-08-22 08:40:00,attack,WECC,"Gila River, Arizona",3.15,0,0.0528,0.0467
+2014-04-08 13:00:00,attack,WECC,"Davis, California",0.0166666666666666,0,0.0523,0.0976
+2013-04-23 00:49:00,system operations,WECC,"South of Humboldt, California",3.25,0,0.0522,0.0677
+2012-02-17 03:00:00,attack,SERC,"Little Rock, Arkansas",8.55,0,0.0515,0.0374
+2014-02-14 13:00:00,attack,WECC,"Portland, Oregon",2.0,0,0.0514,0.1022
+2012-02-24 11:24:00,attack,WECC,"Spanaway, Washington",0.4166666666666667,0,0.051,0.1004
+2014-04-24 15:02:00,system operations,WECC,"Alberta, Canada",2.183333333333333,0,0.0509,0.0136
+2014-03-26 13:37:00,system operations,WECC,Montana,0.9333333333333332,0,0.0505,0.0206
+2013-08-12 11:55:00,attack,WECC,"Portland, Oregon",0.0666666666666666,0,0.0496,0.1053
+2012-02-14 19:20:00,attack,WECC,"Tacoma, Washington",20.666666666666668,0,0.0486,0.1055
+2013-06-28 13:00:00,attack,NPCC,Vermont,0.0166666666666666,0,0.0486,0.0639
+2013-03-18 17:50:00,attack,FRCC,Northeast Florida,0.2833333333333333,0,0.0483,0.1582
+2013-07-11 23:20:00,attack,WECC,Arizona,64.03333333333333,1,0.0482,0.1652
+2013-08-28 09:30:00,attack,WECC,Sweetwater County Wyoming,0.0166666666666666,0,0.0473,0.1235
+2014-02-18 18:43:00,attack,WECC,"Bend, Oregon",0.0166666666666666,0,0.0459,0.105
+2012-02-28 07:00:00,attack,WECC,Coos County Oregon,0.0,0,0.0445,0.0287
+2013-07-22 07:00:00,attack,WECC,California,8.0,0,0.0443,0.0414
+2013-11-04 09:04:00,attack,NPCC,Connecicut,0.0166666666666666,0,0.0437,0.1055
+2013-11-20 03:08:00,attack,WECC,Salt Lake County Utah,0.0166666666666666,0,0.0431,0.0428
+2012-06-06 08:00:00,attack,NPCC,"Delhi, New York",0.0,0,0.043,0.0234
+2012-06-13 16:55:00,attack,WECC,"San Juan County, New Mexico",5.233333333333333,0,0.043,0.0738
+2012-11-26 15:07:00,attack,RFC,"Georgetown, Delaware",0.0166666666666666,0,0.0426,0.0375
+2013-08-21 14:00:00,attack,SERC,"Cabot, Arkansas",0.0166666666666666,0,0.0414,0.144
+2013-04-17 15:36:00,attack,SERC,"Colbert Steam Plant in Cherokee, Alabama",1.2833333333333334,0,0.0404,0.1105
+2012-11-26 12:37:00,attack,RFC,"Frankfort, Delaware",0.0166666666666666,0,0.0398,0.0516
+2012-02-28 02:59:00,system operations,WECC,"Sacramento, California",3.216666666666667,0,0.036,0.0394
+2013-06-19 19:57:00,system operations,WECC,"Alberta, Canada",0.2,0,0.0359,0.0102
+2014-06-11 09:30:00,attack,WECC,"Nogales, Arizona",0.0166666666666666,0,0.0356,0.0524
+2013-02-19 16:01:00,system operations,WECC,"Stockton, California",20.9,0,0.0353,0.023
+2012-09-26 21:16:00,system operations,PR,Puerto Rico,1.0333333333333334,0,0.0352,0.0075
+2012-08-13 13:15:00,attack,SERC,"Knoxville, Tennessee",0.0,0,0.035,0.1291
+2013-08-26 20:15:00,attack,WECC,Tacoma Washington,0.0166666666666666,0,0.0344,0.1009
+2012-11-08 09:34:00,attack,RFC,"Bishopville, Maryland",0.0166666666666666,0,0.0333,0.0224
+2013-05-22 10:51:00,system operations,PR,System wide Puerto Rico,0.1,0,0.0322,0.0171
+2012-02-13 07:02:00,attack,SERC,"Asheville, North Carolina",9.383333333333333,0,0.0322,0.0297
+2012-11-07 14:21:00,attack,NPCC,New Hampshire,0.45,0,0.0322,0.0184
+2012-11-15 05:38:00,attack,NPCC,Southeast Massachusetts,0.0166666666666666,0,0.0319,0.0176
+2012-11-21 14:50:00,attack,RFC,"Bethany Beach, Delaware",0.0166666666666666,0,0.0314,0.0186
+2014-06-11 16:00:00,attack,SERC,Southern Mississippi,0.5,0,0.0311,0.1638
+2013-08-01 18:54:00,system operations,WECC,Western British Columbia,0.7166666666666667,0,0.031,0.0189
+2014-06-18 09:52:00,attack,WECC,Washington,9.133333333333333,0,0.0298,0.0871
+2013-11-12 14:04:00,system operations,WECC,"Valle, California",0.0166666666666666,0,0.0287,0.0214
+2013-03-04 09:49:00,equipment,PR,Metropolitan area Puerto Rico,12.183333333333334,0,0.0283,0.0365
+2013-06-18 15:51:00,system operations,WECC,Wyoming,0.5333333333333333,0,0.0279,0.0131
+2013-06-03 12:50:00,system operations,WECC,"Alberta, Canada",0.7666666666666667,0,0.0266,0.0183
+2013-02-10 19:46:00,system operations,PR,Puerto Rico,0.4833333333333333,0,0.0255,0.0068
+2014-06-19 08:47:00,attack,SERC,"Nashville, Tennessee",0.0166666666666666,0,0.0245,0.0409
+2012-06-29 12:10:00,equipment,PR,Puerto Rico,4.866666666666666,0,0.0244,0.0382
+2014-06-09 11:07:00,system operations,WECC,"Alberta, Canada",0.3833333333333333,0,0.024,0.0152
+2012-11-27 13:07:00,attack,NPCC,New Hampshire,0.55,0,0.0238,0.0119
+2013-07-03 12:04:00,system operations,PR,System-wide Puerto Rico,0.7333333333333333,0,0.0237,0.0116
+2014-06-24 14:54:00,attack,SERC,"Nashville, Tennessee",0.0166666666666666,0,0.0227,0.099
+2014-06-03 15:32:00,system operations,WECC,"Alberta, Canada",0.45,0,0.0224,0.0149
+2014-03-31 15:41:00,system operations,PR,Puerto Rico,4.45,0,0.0196,0.011
+2014-04-08 11:09:00,system operations,PR,Puerto Rico,0.1833333333333333,0,0.0176,0.0052
+2014-06-12 09:10:00,attack,ERCOT,"Somervell County, Texas",0.0166666666666666,0,0.016,0.0427
+2014-06-03 01:38:00,attack,ERCOT,Texas,0.0833333333333333,0,0.013,0.0169

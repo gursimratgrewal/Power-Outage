@@ -1,0 +1,11 @@
+model,decile,events,predicted_rate,actual_rate
+logistic,1,49,0.0339,0.0204
+logistic,2,48,0.0582,0.0625
+logistic,3,48,0.0762,0.0625
+logistic,4,49,0.1074,0.0816
+logistic,5,48,0.1519,0.0417
+logistic,6,48,0.2485,0.1667
+logistic,7,49,0.4163,0.5306
+logistic,8,48,0.5473,0.4583
+logistic,9,48,0.6948,0.75
+logistic,10,49,0.837,0.7347

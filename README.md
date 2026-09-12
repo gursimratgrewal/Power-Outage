@@ -1,11 +1,15 @@
 # Power-Outage
 
-Projects on power outage data.
+## [outage-duration-prediction](outage-duration-prediction/)
 
-## [ca-outage-prediction](ca-outage-prediction/)
+**When a grid disturbance is first reported, will it still be unresolved 24 hours later?**
 
-Predicting high-outage days in 15 California counties from daily weather. Joins
-EAGLE-I 15-minute outage records to Open-Meteo weather history, builds rolling wind and
-precipitation features, and ranks county-days by the chance of landing in that county's
-worst 5%. Time-based train/test split, precision@k and calibration rather than
-accuracy.
+Built on DOE OE-417 electric disturbance events, 2000–2014. Buckets free-text causes,
+adds rolling counts of recent regional activity, and ranks events by the chance of
+running long — a crew-allocation question rather than an academic one.
+
+Baseline vs logistic regression vs gradient boosting, split by year rather than
+randomly, judged on PR-AUC and precision@k instead of accuracy. Of the 25 events the
+model flags hardest, 21 really ran long; picking 25 at random gets 7.
+
+Runs offline in under a minute — the data is committed, no API keys, no downloads.

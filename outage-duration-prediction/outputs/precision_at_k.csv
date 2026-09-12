@@ -1,0 +1,13 @@
+model,k,precision_at_k
+logistic,10,0.8
+logistic,25,0.84
+logistic,50,0.74
+logistic,100,0.74
+gradient_boosting,10,0.8
+gradient_boosting,25,0.84
+gradient_boosting,50,0.72
+gradient_boosting,100,0.72
+random_pick,10,0.2913
+random_pick,25,0.2913
+random_pick,50,0.2913
+random_pick,100,0.2913

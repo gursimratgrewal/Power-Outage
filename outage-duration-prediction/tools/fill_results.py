@@ -1,10 +1,10 @@
-"""Paste the real results into the README after a run.
+"""Rewrite the README results table from the last run.
 
     python tools/fill_results.py
 
-Reads outputs/model_comparison.csv and rewrites the table between the
-RESULTS markers in README.md. Run it after 05_train_evaluate.py so the
-README shows what the models actually did instead of an empty table.
+Reads outputs/model_comparison.csv and replaces whatever sits between the
+RESULTS markers in README.md, so the numbers in the README are always the
+ones the code actually produced.
 """
 
 import argparse
@@ -20,7 +20,7 @@ START = "<!-- RESULTS:START -->"
 END = "<!-- RESULTS:END -->"
 
 LABELS = {
-    "baseline_never_high": "baseline (never high)",
+    "baseline_never_long": "baseline (never long)",
     "logistic": "logistic regression",
     "gradient_boosting": "gradient boosting",
 }
@@ -28,13 +28,13 @@ LABELS = {
 
 def build_table(comparison: pd.DataFrame) -> str:
     k_cols = [f"precision@{k}" for k in K_VALUES if f"precision@{k}" in comparison]
-    header = ["model", "accuracy", "precision", "recall", "PR-AUC"]
+    header = ["model", "accuracy", "precision", "recall", "PR-AUC", "ROC-AUC"]
     header += [f"P@{c.split('@')[1]}" for c in k_cols]
 
     lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(["---"] * len(header)) + " |"]
     for _, row in comparison.iterrows():
         cells = [LABELS.get(row["model"], row["model"])]
-        cells += [f"{row[c]:.3f}" for c in ("accuracy", "precision", "recall", "pr_auc")]
+        cells += [f"{row[c]:.3f}" for c in ("accuracy", "precision", "recall", "pr_auc", "roc_auc")]
         cells += [f"{row[c]:.3f}" for c in k_cols]
         lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines)
