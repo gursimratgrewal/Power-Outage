@@ -38,6 +38,10 @@ and precipitation total. Responses are cached in `data/raw/weather/` so re-runs 
 re-hit the API. If the API isn't reachable, `handoff/README.md` has a single URL that
 returns all 15 counties, and `tools/import_weather.py` loads the saved file.
 
+DOE's OE-417 grid disruption dataset was evaluated as an alternative outage source
+and rejected — it leaves 7 positive days in the test set.
+[`notes/data-source-evaluation.md`](notes/data-source-evaluation.md) has the counts.
+
 **Counties (15).** Alameda, Butte, Contra Costa, El Dorado, Fresno, Humboldt, Los
 Angeles, Napa, Nevada, Placer, Sacramento, San Diego, Santa Clara, Shasta, Sonoma —
 mostly PG&E territory, with two southern counties for contrast. Centroids are in
@@ -245,6 +249,8 @@ ca-outage-prediction/
 │   ├── import_weather.py        load hand-downloaded Open-Meteo files
 │   ├── make_synthetic_data.py   fake data for an offline smoke test
 │   └── fill_results.py          writes the results table into the README
+├── notes/
+│   └── data-source-evaluation.md   why EAGLE-I and not OE-417
 ├── handoff/                     committed drop folder for downloaded data
 ├── data/                        gitignored
 └── outputs/                     gitignored
