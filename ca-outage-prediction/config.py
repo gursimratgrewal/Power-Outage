@@ -11,6 +11,13 @@ PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
 FIGURE_DIR = OUTPUT_DIR / "figures"
 
+# Unlike data/, handoff/ is committed: it's where hand-downloaded files go
+# when the machine running the pipeline can't reach the data sources itself.
+# See handoff/README.md.
+HANDOFF_DIR = PROJECT_ROOT / "handoff"
+HANDOFF_EAGLEI_DIR = HANDOFF_DIR / "eaglei"
+HANDOFF_WEATHER_DIR = HANDOFF_DIR / "openmeteo"
+
 for _d in (EAGLEI_DIR, INTERIM_DIR, PROCESSED_DIR, OUTPUT_DIR, FIGURE_DIR):
     _d.mkdir(parents=True, exist_ok=True)
 

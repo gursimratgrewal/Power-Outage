@@ -13,10 +13,16 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from config import EAGLEI_DIR, FIPS_TO_COUNTY, INTERIM_DIR  # noqa: E402
+from config import EAGLEI_DIR, FIPS_TO_COUNTY, HANDOFF_EAGLEI_DIR, INTERIM_DIR  # noqa: E402
 
 CHUNK_SIZE = 1_000_000
 OUT_PATH = INTERIM_DIR / "outages_15min.csv"
+
+# Raw yearly files live in either place; .gz is read transparently by pandas.
+SEARCH_DIRS = [EAGLEI_DIR, HANDOFF_EAGLEI_DIR]
+RAW_PATTERN = "eaglei_outages_*.csv*"
+# An already-filtered file handed over by someone who ran this step elsewhere.
+PREFILTERED_PATTERN = "outages_15min.csv*"
 
 # EAGLE-I has shipped the customer count under both names over the years.
 COLUMN_ALIASES = {"sum": "customers_out", "customers_out": "customers_out"}
@@ -31,11 +37,37 @@ def normalise(chunk: pd.DataFrame) -> pd.DataFrame:
     return chunk[["fips_code", "run_start_time", "customers_out"]]
 
 
+def find(pattern: str) -> list[Path]:
+    return sorted(p for d in SEARCH_DIRS if d.exists() for p in d.glob(pattern))
+
+
+def adopt_prefiltered(path: Path) -> None:
+    """Someone already ran this step; just validate and copy into place."""
+    print(f"using pre-filtered {path}")
+    df = pd.read_csv(path)
+    required = {"fips_code", "run_start_time", "customers_out"}
+    if not required.issubset(df.columns):
+        raise SystemExit(f"{path} is missing columns: {sorted(required - set(df.columns))}")
+    df["county"] = df["fips_code"].map(FIPS_TO_COUNTY)
+    unknown = df["county"].isna().sum()
+    if unknown:
+        print(f"dropping {unknown:,} rows from counties not in config.py")
+        df = df.dropna(subset=["county"])
+    df.to_csv(OUT_PATH, index=False)
+    print(f"wrote {len(df):,} rows for {df['county'].nunique()} counties -> {OUT_PATH}")
+
+
 def main() -> None:
-    files = sorted(EAGLEI_DIR.glob("eaglei_outages_*.csv"))
+    prefiltered = find(PREFILTERED_PATTERN)
+    if prefiltered:
+        adopt_prefiltered(prefiltered[0])
+        return
+
+    files = find(RAW_PATTERN)
     if not files:
+        searched = " or ".join(str(d) for d in SEARCH_DIRS)
         raise SystemExit(
-            f"No EAGLE-I files in {EAGLEI_DIR}. See the README for the download link."
+            f"No EAGLE-I files in {searched}. See the README for the download link."
         )
 
     keep_fips = set(FIPS_TO_COUNTY)

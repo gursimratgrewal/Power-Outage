@@ -34,7 +34,8 @@ handles both.
 **Weather — Open-Meteo historical archive API.** Free, no API key. One request per
 county centroid, pulling daily max wind gust, max wind speed, mean and max temperature,
 and precipitation total. Responses are cached in `data/raw/weather/` so re-runs don't
-re-hit the API.
+re-hit the API. If the API isn't reachable, `handoff/README.md` has a single URL that
+returns all 15 counties, and `tools/import_weather.py` loads the saved file.
 
 **Counties (15).** Alameda, Butte, Contra Costa, El Dorado, Fresno, Humboldt, Los
 Angeles, Napa, Nevada, Placer, Sacramento, San Diego, Santa Clara, Shasta, Sonoma —
@@ -64,7 +65,13 @@ python src/05_train_evaluate.py    # three models, metrics, calibration, figures
 python tools/fill_results.py       # paste the results table into this README
 ```
 
-No internet and no EAGLE-I download? `python tools/make_synthetic_data.py` writes
+**Can't reach the data sources from the machine running this?** Download the files
+somewhere else, drop them in `handoff/`, and the pipeline picks them up —
+`handoff/README.md` has the exact sources, the one-URL Open-Meteo link for all 15
+counties, and how to keep the EAGLE-I files small enough to commit. Use
+`python tools/import_weather.py` in place of step 03.
+
+No internet and no EAGLE-I download at all? `python tools/make_synthetic_data.py` writes
 fake files in the same formats so you can check the pipeline runs. **Its numbers are
 invented** — useful for a smoke test, useless as a result.
 
@@ -230,8 +237,10 @@ ca-outage-prediction/
 │   ├── 04_build_features.py     join, rolling features, target definition
 │   └── 05_train_evaluate.py     three models, metrics, calibration, figures
 ├── tools/
+│   ├── import_weather.py        load hand-downloaded Open-Meteo files
 │   ├── make_synthetic_data.py   fake data for an offline smoke test
 │   └── fill_results.py          writes the results table into the README
+├── handoff/                     committed drop folder for downloaded data
 ├── data/                        gitignored
 └── outputs/                     gitignored
 ```
