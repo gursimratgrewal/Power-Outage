@@ -1,0 +1,11 @@
+# Raw and derived data are large and re-downloadable
+data/
+
+# Model outputs -- keep synthetic smoke-test results out of the repo by
+# default. After a real run, force-add the tables/figures you want to show.
+outputs/
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
