@@ -61,6 +61,7 @@ python src/02_aggregate_daily.py   # 15-minute records -> one row per county-day
 python src/03_get_weather.py       # Open-Meteo, one call per county
 python src/04_build_features.py    # join, rolling features, target
 python src/05_train_evaluate.py    # three models, metrics, calibration, figures
+python tools/fill_results.py       # paste the results table into this README
 ```
 
 No internet and no EAGLE-I download? `python tools/make_synthetic_data.py` writes
@@ -144,13 +145,19 @@ What's reported instead:
 
 ## Results
 
-Run `src/05_train_evaluate.py` and paste `outputs/model_comparison.csv` in here.
+Empty until you run the pipeline on real data. After `05_train_evaluate.py`, run
+`python tools/fill_results.py` and this table fills itself in from
+`outputs/model_comparison.csv`.
 
-| model | accuracy | precision | recall | PR-AUC | P@10 | P@50 | P@100 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| baseline (never high) | ~0.95 | 0.00 | 0.00 | base rate | base rate | base rate | base rate |
-| logistic regression | | | | | | | |
-| gradient boosting | | | | | | | |
+<!-- RESULTS:START -->
+
+| model | accuracy | precision | recall | PR-AUC | P@10 | P@25 | P@50 | P@100 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| baseline (never high) | | | | | | | | |
+| logistic regression | | | | | | | | |
+| gradient boosting | | | | | | | | |
+
+<!-- RESULTS:END -->
 
 The full set of outputs:
 
@@ -223,7 +230,8 @@ ca-outage-prediction/
 │   ├── 04_build_features.py     join, rolling features, target definition
 │   └── 05_train_evaluate.py     three models, metrics, calibration, figures
 ├── tools/
-│   └── make_synthetic_data.py   fake data for an offline smoke test
+│   ├── make_synthetic_data.py   fake data for an offline smoke test
+│   └── fill_results.py          writes the results table into the README
 ├── data/                        gitignored
 └── outputs/                     gitignored
 ```

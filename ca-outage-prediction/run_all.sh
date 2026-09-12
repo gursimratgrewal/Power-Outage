@@ -9,3 +9,4 @@ python src/02_aggregate_daily.py
 python src/03_get_weather.py
 python src/04_build_features.py
 python src/05_train_evaluate.py
+python tools/fill_results.py
